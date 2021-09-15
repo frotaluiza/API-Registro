@@ -8,9 +8,9 @@
     </nav>
 
     <div class="container">
-
+      <p>{{pessoa.dateCreated}}</p>
       <form @submit.prevent="salvar">
-        {{pessoa.dateCreated}}
+        
           <label>Nome</label>
           <input type="text" placeholder="Nome" v-model="pessoa.name">
           <label>Numero</label>
