@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const http = axios.create({
-    baseURL: 'http://localhost:8081/api/'
+    baseURL: 'https://green-wave-0ab9cb110.azurestaticapps.net/api/'
 })
